@@ -28,7 +28,10 @@ print(d)
 print()
 
 print ("Booleans")
-my_first_boolean = True
-print(my_first_boolean)
+my_true_boolean = True
+my_false_boolean = False
+print(my_true_boolean)
+print(my_false_boolean)
+
 print(53<50)
 
