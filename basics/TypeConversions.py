@@ -13,6 +13,7 @@ type_boolean = True
 print(type(type_int))
 print(type(type_float))
 print(type(type_string))
+print(type(type_string_representing_valid_no))
 print(type(type_boolean))
 
 print()
