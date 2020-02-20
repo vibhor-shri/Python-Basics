@@ -77,6 +77,15 @@ print(test_string1)
 print("after calling replace() method ")
 print(replace_one)
 
+"""This is the find() method of String. It will return the first index in the string where the substring
+in parameters is found, -1 otherwise"""
+find_one = test_string1.find("test")
+find_two = test_string1.find("english")
+print()
+print("after calling find() method ")
+print(find_one)
+print(find_two)
+
 """This is the rfind() method of String. It will return the highest index in the string where the substring
 in parameters is found, -1 otherwise"""
 rfind_one = test_string1.rfind("test")
