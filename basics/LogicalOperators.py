@@ -1,5 +1,5 @@
 
-separator = "==============="
+separator = "============================"
 print("Logical Operators")
 print(separator)
 

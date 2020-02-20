@@ -1,7 +1,7 @@
 
 
+separator = "============================"
 print("Variable Declaration")
-separator = "==============="
 print(separator)
 
 my_variable = 10

@@ -1,5 +1,5 @@
 
-separator = "==============="
+separator = "============================"
 print ("String Basics")
 print(separator)
 print()
