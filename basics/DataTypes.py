@@ -1,31 +1,34 @@
 
 # Basic data types
 
-print ("String")
 print()
-my_string = 'Test'
-my_string1 = "Test"
-my_string2 = "Vibhor\'s String test"
+print("Integers")
 
-print (my_string)
-print (my_string1)
-print (my_string2)
-
-hello = "Hello"
-world = "World!"
-
+x = 10
+print(x)
+print(type(x))
 print()
-print (hello*5)
-print (world*5)
-
+print("Floating Points")
+y = 2.7
+print(y)
+print(type(y))
 print()
-print((hello+world + " ")*5)
+print("Type conversions")
+print("int to float")
+a = 3
+b = float(a)
+print(a)
+print(b)
 
-print()
-print(len(hello))
-print(len(world))
+print("float to int")
+c = 3.7
+d = int(c)
+print(c)
+print(d)
 print()
 
-first_element = hello[0]
-print(first_element)
-print(type(first_element))
+print ("Booleans")
+my_first_boolean = True
+print(my_first_boolean)
+print(53<50)
+
