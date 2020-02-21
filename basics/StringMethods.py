@@ -119,7 +119,7 @@ print(my_address_two.format(road_number, city_name, city_name))
 print(my_address_three.format(city_name, road_number, city_name))
 
 """This is the split() method of String. It returns a list of words in the string, seperated by given delimeter
-Optional argument is maxSplit, which tells how many items can there be in the list"""
+Optional argument is maxSplit, which tells how many item index can there be in the list"""
 split_one = test_string4.split(" ")
 split_two = test_string4.split(".")
 split_three = test_string4.split(" ", 4)
