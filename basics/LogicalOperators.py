@@ -6,11 +6,11 @@ print(separator)
 print("'and'" + " " + 'Evaluates if all provided statements are True')
 print("'or'" + " " +  'Evaluates if at least one of many statements is True')
 print("'not'" + " " +  'Flips the Bool Value')
-print()
 
+print()
 age = 66
-is_toddler = age > 1 and age < 4
-is_toddler_or_senior_citizen = age < 2 or age >= 60
+is_toddler = age > 1 and age < 3
+is_toddler_or_senior_citizen = age < 3 or age >= 60
 
 print()
 print("and operator")
