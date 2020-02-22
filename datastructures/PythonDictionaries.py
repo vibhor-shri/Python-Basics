@@ -76,3 +76,13 @@ print(list_a == b)
 print(list_a is b)
 print(list_a == c)
 print(list_a is c)
+
+
+print()
+print("Compound dictionary")
+print("A compound dictionary, is a dictionary of dictionary. It is the same as described above, just that in a "
+      "coumpound dictionary, the value of a particular key will again be a dictionary")
+
+alphabets = {"A" : {"A": 1, "a": 1}, "B" : {"B" : 2, "b": 2}, "C" : {"C" : 3, "c": 3}}
+print(alphabets["A"])
+print(type(alphabets["A"]))
