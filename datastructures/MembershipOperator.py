@@ -4,9 +4,20 @@ print(separator)
 print()
 
 print()
-print("A membership operator in python, are boolean return operators stating weather something belongs to a "
+print("A membership operator in python, are boolean return operators stating weather something is present in a "
       "particular data set or not")
-print("List, Set, Tuple & Dictionary all support membership operators")
+print("String, List, Set, Tuple & Dictionary all support membership operators")
+print("Note: Mmbership operators are case sensitive for string data type")
+
+print()
+print("Sample below for membership operator called on my_string.")
+my_string = "Test String"
+print(my_string, "Type of object = {}".format(type(my_string)))
+print("is Str present in {} : {}".format(my_string, 'Str' in my_string))
+print("is Str not present in {} : {}".format(my_string, 'Str' not in my_string))
+print("is str present in {} : {}".format(my_string, 'str' in my_string))
+print("is str not present in {} : {}".format(my_string, 'str' not in my_string))
+
 
 print()
 print("Sample below for membership operator called on list_of_numbers.")
