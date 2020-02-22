@@ -45,3 +45,12 @@ print("is 3 present in {} : {}".format(number_set, 3 in number_set))
 print("is 3 not present in {} : {}".format(number_set, 3 not in number_set))
 print("is 5 present in {} : {}".format(number_set, 5 in number_set))
 print("is 5 not present in {} : {}".format(number_set, 5 not in number_set))
+
+print()
+print("Sample below for membership operator called on dict_of_alphabets.")
+dict_of_alphabets = {'A': 1, 'B': 2, 'C': 3, 'D': 4}
+print(dict_of_alphabets, "Type of object = {}".format(type(dict_of_alphabets)))
+print("is 'A' present in {} : {}".format(dict_of_alphabets, "A" in dict_of_alphabets))
+print("is 'A' not present in {} : {}".format(dict_of_alphabets, "A" not in dict_of_alphabets))
+print("is 'Z' present in {} : {}".format(dict_of_alphabets, "Z" in dict_of_alphabets))
+print("is 'Z' not present in {} : {}".format(dict_of_alphabets, "Z" not in dict_of_alphabets))
